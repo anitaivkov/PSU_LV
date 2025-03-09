@@ -3,8 +3,7 @@
 def total_euro(sati, satnica):
     return sati * satnica
 
-print("\n")
-radni_sati = float(input("Radni sati: "))
+radni_sati = float(input("\nRadni sati: "))
 satnica = float(input("eura/h: "))
 
 zarada = total_euro(radni_sati, satnica)
