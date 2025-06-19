@@ -87,10 +87,3 @@ for features in features_to_test:
     
     print(f"R2 test: {r2_test_c:.4f}")
     print(f"RMSE test: {rmse_test_c:.4f}")
-
-# Općeniti odgovor na pitanje 6:
-# Povećanjem broja relevantnih ulaznih veličina (značajki), pogreška na testnom skupu pada
-# jer model dobiva više informacija o ciljnoj varijabli i može donositi točnije predikcije.
-# Dodavanje irelevantnih ili redundantnih značajki može dovesti do preprilagođavanja (overfittinga),
-# posebno ako je skup podataka mali, što može rezultirati pogoršanjem performansi na testnom skupu.
-# Postoji točka optimalnog broja značajki gdje se postiže najbolja generalizacija.
